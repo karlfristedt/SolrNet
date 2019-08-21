@@ -14,5 +14,9 @@ namespace SimpleInjector.SolrNet
         /// </summary>
         public HttpClient HttpClient { get; }
         public int MyIntProperty { get; set; }
+        public void Test()
+        {
+            System.Console.WriteLine("Hello!");
+        }        
     }
 }
