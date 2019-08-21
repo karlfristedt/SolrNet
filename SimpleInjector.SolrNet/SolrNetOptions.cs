@@ -13,5 +13,9 @@ namespace SimpleInjector.SolrNet
         /// Gets the HttpClient with which SolrNet connects to the Solr server. This is the place to add Default Headers for Basic Authentication for example..
         /// </summary>
         public HttpClient HttpClient { get; }
+        public void Test()
+        {
+            System.Console.WriteLine("Hello!");
+        }        
     }
 }
